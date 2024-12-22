@@ -141,12 +141,12 @@ function Home(){
                 </div>
                 <div className=" relative cursor-pointer border-r-2">
                     {/* Column 2 Content */}
-                    <div className='relative text-gray-500 h-28 w-28'>
-                        <img src={require('../assets/section2-2-1.webp')} alt="Section 1" className="w-full rounded-xl h-24 mb-4" />
-                        <img src={require('../assets/section1-2.webp')} alt="Section 1" className="w-full rounded-xl h-auto" />
+                    <div className='relative text-gray-700 h-28 w-28'>
+                        <img src={require('../assets/section2-2-1.webp')} alt="Section 1" className="w-full rounded-xl h-[85px] mb-4" />
+                        <img src={require('../assets/section2-2-2.webp')} alt="Section 1" className="w-full rounded-xl h-[85px]" />
                         <div className="w-full rounded-xl h-full flex space-x-4 absolute top-0 ">
-                            <h2 className="text-[12px] font-bold hover:text-blue-500 absolute left-28 top-32 w-52 pl-4" style={{ fontFamily: 'Calistoga, sans-serif' }}><span className="text-red-500" style={{ fontFamily: 'serif' }}>SHOPPING</span> <br />43 Useful Stocking Stuffers You Still Have Time To Get</h2>
-                            <h2 className="text-[12px] font-bold hover:text-blue-500 absolute left-28 top-1 w-52 pr-4" style={{ fontFamily: 'Calistoga, sans-serif' }}><span className="text-red-500" style={{ fontFamily: 'serif' }}>SHOPPING</span> <br />44 Expensive-Looking Items That'll Make Everyone Think You Spent Moneyyyyyyy On Their Gifts</h2>
+                            <h2 className="text-[12px] hover:text-blue-500 absolute left-28 top-28 w-52 pl-4 font-semibold"><span className="text-red-500" style={{ fontFamily: 'serif' }}>SHOPPING</span> <br />20 Gadgets For The Person Who Basically Has Everything</h2>
+                            <h2 className="text-[12px] hover:text-blue-500 absolute left-28 top-1 w-52 pr-4 font-semibold"><span className="text-red-500" style={{ fontFamily: 'serif' }}>SHOPPING</span> <br />44 Expensive-Looking Items That'll Make Everyone Think You Spent Moneyyyyyyy On Their Gifts</h2>
                         </div>
                     </div>
                     <div></div>
