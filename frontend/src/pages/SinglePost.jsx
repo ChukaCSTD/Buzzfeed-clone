@@ -132,16 +132,13 @@ function SinglePost() {
                                 >
                                     💬 View all {commentCount} comments 
                                 </button>
-                                <h2 className="text-4xl font-bold">{post.title || "Untitled Post"}</h2>
+                                <h2 className="text-4xl font-bold mt-4">{post.title || "Untitled Post"}</h2>
                             </div>
-                            <div className="flex gap-1">
-                                {/* <button className="mt-2 flex items-center gap-2 bg-blue-500 text-white py-2 px-4 rounded-sm hover:bg-blue-600" onClick={addBookmark}>
-                                    <BiBookmarkPlus className="w-5 h-5" /> Add to Bookmark
-                                </button> */}
-                                <button className="mt-2 flex items-center gap-1 text-black py-2 px-2 rounded-xl hover:text-red-600" onClick={handleDelete}>
-                                    <FiDelete /><TbHttpDelete size={30} />
+                            <div className="flex gap-1 mt-4">
+                                <button className="flex items-center gap-1 text-gray-700 px-2 rounded-xl hover:bg-red-600" onClick={handleDelete}>
+                                    <FiDelete /><TbHttpDelete size={30} className="font-extralight" />
                                 </button>
-                                <button className="mt-2 flex items-center gap-2  text-black py-2 px-2 rounded-xl hover:text-green-300" onClick={likePost}>
+                                <button className="flex items-center gap-1 text-black px-2 rounded-xl hover:bg-green-300" onClick={likePost}>
                                     <BiLike className="w-5 h-5" />
                                     <p>{likes.length}</p>
                                 </button>
@@ -152,7 +149,7 @@ function SinglePost() {
                                     <p className="text-gray-700">{post.descp || "No description available."}</p>
                                 </div>
                             </div>
-                            <div className="mt-2">
+                            <div className="mt-4">
                                 <span className="text-sm text-gray-500">Tags: </span>
                                 {post.tags && post.tags.map((tag, index) => (
                                     <span key={index} className="bg-blue-100 text-blue-800 text-xs font-medium mr-1 px-2.5 py-0.5 rounded">
